@@ -1,0 +1,77 @@
+body {
+    background-color: #1725f4;
+    display: flex;
+    flex-direction: column;
+    color: #1725f4;
+    margin: 20px;
+}
+
+header {
+    background-color: white;
+    border-bottom-style: ridge;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+#theHolder {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 3%;
+    flex: 1 0 auto;
+}
+
+.answers {
+    margin: 15px;
+    padding: 15px 50px;
+    background-color: #1725f4;
+    color: white;
+    text-align: center;
+}
+
+#startButton {
+    width: 20%;
+    margin: 20% 40%;
+    padding: 20px 0;
+    background-color: #1725f4;
+    color: whitesmoke;    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 100px 0 400px 0;
+    margin: 25px 0 20px 0;
+}
+
+h2 {
+    margin-bottom: 100px;
+}
+
+#timerP {
+    padding-left: 30%;
+}
+
+.scoreListEl {
+    display: none;
+}
+
+@media screen (max-width: 992px){}
+
+@media screen (max-width: 600px){}
