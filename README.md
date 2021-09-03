@@ -1,4 +1,4 @@
-# HOMEWORK 4: WEB APIs
+# codeQuiz WIP
 
 ## Description:
     A code quiz application, the user clicks buttons to answer questions. A time penalty occurs if the user answers incorrectly, and the user's score increases if they answer correctly
